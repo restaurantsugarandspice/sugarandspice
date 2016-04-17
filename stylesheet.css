@@ -1,0 +1,131 @@
+/*Basic Layout*/
+body {background-color:#B8E0BC;}
+
+div {/*border:2px dashed black;*/
+    margin:10px 5px;
+    text-align:center;
+}
+.bgcolor{
+    background-color:#D4CDAB;
+}
+
+h1{
+    text-align:center;
+}
+#header{height: 175px;
+}
+
+.body{
+    background-color:#FA7C4B;
+}
+.height{
+      height:400px;  
+}
+#footer{
+    height:25px;
+    background-color:#B3A8A9;
+}
+/* title font*/
+.title{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+/* paragraph font*/
+.text{
+    font-family: 'Indie Flower', cursive;
+}
+/*text size*/
+.biggest{
+        font-size:36px;
+}
+.big{
+    font-size:30px;
+}
+.medium{
+    font-size:24px;
+}
+.small{
+    font-size:20px;
+}
+.tiny{
+    font-size:16px;
+}
+/*Navigation Bar*/
+#nav ul {
+    background-color:#F5F7DC;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li{
+        display: inline;
+        font-size: 20px;
+}
+#nav li a:link, #nav li a:visited{
+    color: #3B3738;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display:inline-block;
+}
+#nav li a:hover{
+    color: black;
+    background-color: #FFFF82;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+#nav .active {
+    background-color:#49B83E;
+    
+}
+
+/* Footer*/
+.socialimg{
+    height:50px;
+}
+
+/*Our Story*/
+
+
+
+/*Menu*/
+.food {
+   text-align:center; 
+  margin: auto;
+}
+.food li{
+    list-style-type: none;
+         text-align:center;}
+.top {text-align: right;}
+
+
+
+/*Baking Classes*/
+#schedule table{
+    margin:auto;
+    background-color:#FDF3E7;
+}
+#schedule td{
+    background-color:#E5C1BD;
+    padding: 15px;
+    text-align: center;
+}
+
+/*gallery*/
+#gallery{
+    margin: auto;
+}
+
+
+
+/*Contact*/
+.contact{
+    text-align:center;
+}
+
+#beverages a{
+      text-decoration: none;  
+}
